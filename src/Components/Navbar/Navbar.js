@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -56,17 +57,17 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 text-green-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Home</a>
+                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md" href="javascript:void(0)">Home</Link>
                             </li>
-                            <li className="text-gray-600 text-green-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Blog</a>
+                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Blog</Link>
                             </li>
-                            <li className="text-gray-600 text-green-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">About US</a>
+                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">About US</Link>
                             </li>
-                            <li className="text-gray-600 text-green-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Contact US</a>
+                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Contact US</Link>
                             </li>
                         </ul>
                     </div>
