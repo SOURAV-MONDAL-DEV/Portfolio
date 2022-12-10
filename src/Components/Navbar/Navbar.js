@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import signPic from "../../images/sign.png"
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -10,7 +11,7 @@ export default function NavBar() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl text-green-500 font-bold">LOGO</h2>
+                            <img className="w-1/2" src={signPic} alt="sign"></img>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -64,10 +65,10 @@ export default function NavBar() {
                                 <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Blog</Link>
                             </li>
                             <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">About US</Link>
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">About Me</Link>
                             </li>
                             <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Contact US</Link>
+                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Contact Me</Link>
                             </li>
                         </ul>
                     </div>
