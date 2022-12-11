@@ -58,17 +58,17 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md" href="javascript:void(0)">Home</Link>
+                            <li className=" text-green-500 rounded hover:border-green-500">
+                                <Link to="/" className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md" >Home</Link>
                             </li>
-                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Blog</Link>
+                            <li className=" text-green-500 rounded hover:border-green-500">
+                                <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Blog</Link>
                             </li>
-                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">About Me</Link>
+                            <li className=" text-green-500 rounded hover:border-green-500">
+                                <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >About Me</Link>
                             </li>
-                            <li className=" text-green-500 p-2 rounded hover:border-green-500">
-                                <Link className=" text-xl font-semi-bold px-2 py-1 hover:border rounded-md " href="javascript:void(0)">Contact Me</Link>
+                            <li className=" text-green-500 rounded hover:border-green-500">
+                                <Link to="/contact" className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Contact Me</Link>
                             </li>
                         </ul>
                     </div>
