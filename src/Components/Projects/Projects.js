@@ -7,7 +7,7 @@ import medi from '../../images/projects/medi.png'
 const Projects = () => {
     return (
         <div className='pb-20'>
-            <p>This is projects section</p>
+            <p className='text-center text-2xl font-bold m-10'> Some of my projects are there</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 '>
 
                 <div className="border p-5 mx-auto card card-compact w-80 bg-base-100 shadow-xl">

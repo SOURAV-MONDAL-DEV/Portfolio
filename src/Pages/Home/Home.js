@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from '../../Components/Projects/Projects';
+import Skills from '../../Components/Skills/Skills';
 import picture from "../../images/codeimg.png"
 
 const Home = () => {
@@ -38,6 +39,9 @@ const Home = () => {
             </div>
             <div>
                 <Projects></Projects>
+            </div>
+            <div>
+                <Skills></Skills>
             </div>
         </div>
     );
