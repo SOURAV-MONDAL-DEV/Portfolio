@@ -6,37 +6,37 @@ import medi from '../../images/projects/medi.png'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='pb-20'>
             <p>This is projects section</p>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 '>
 
-                <div className=" mx-auto card card-compact w-80 bg-base-100 shadow-xl">
+                <div className="border p-5 mx-auto card card-compact w-80 bg-base-100 shadow-xl">
                     <figure><img src={paint} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">Paint Hub</h2>
+                        <h2 className="card-title text-bold text-2xl py-3">Paint Hub</h2>
                         <p>For providing painting Order and Reviews</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Details</button>
+                        <div className="flex justify-end">
+                            <button className="btn bg-green-500 px-1 rounded">Details</button>
                         </div>
                     </div>
                 </div>
-                <div className=" mx-auto card card-compact w-80 bg-base-100 shadow-xl">
+                <div className=" border p-5 mx-auto card card-compact w-80 bg-base-100 shadow-xl">
                     <figure><img src={stove} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
+                        <h2 className="card-title text-bold text-2xl py-3">Stove World</h2>
                         <p>Buy and sell used stoves online</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Details</button>
+                        <div className="flex justify-end">
+                            <button className="btn bg-green-500 px-1 rounded">Details</button>
                         </div>
                     </div>
                 </div>
-                <div className=" mx-auto card card-compact w-80 bg-base-100 shadow-xl">
+                <div className=" border p-5 mx-auto card card-compact w-80 bg-base-100 shadow-xl">
                     <figure><img src={medi} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
+                        <h2 className="card-title text-bold text-2xl py-3">Medi Books</h2>
                         <p>Buy Medical Books as a Course</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Details</button>
+                        <div className="flex justify-end">
+                            <button className="btn bg-green-500 px-1 rounded">Details</button>
                         </div>
                     </div>
                 </div>
