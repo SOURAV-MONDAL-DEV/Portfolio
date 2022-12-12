@@ -6,7 +6,7 @@ export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className=" w-full bg-opacity-30 sticky top-0 z-10 shadow">
+        <nav className=" w-full bg-opacity-30 sticky top-0 z-10 shadow  backdrop-filter backdrop-blur-lg ">
             <div className="justify-around px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -58,16 +58,16 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className=" text-green-500 rounded hover:border-green-500">
+                            <li className=" text-amber-400 rounded hover:border-green-500">
                                 <Link to="/" className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md" >Home</Link>
                             </li>
-                            <li className=" text-green-500 rounded hover:border-green-500">
+                            <li className=" text-amber-400 rounded hover:border-green-500">
                                 <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Blog</Link>
                             </li>
-                            <li className=" text-green-500 rounded hover:border-green-500">
+                            <li className=" text-amber-400 rounded hover:border-green-500">
                                 <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >About Me</Link>
                             </li>
-                            <li className=" text-green-500 rounded hover:border-green-500">
+                            <li className=" text-amber-400 rounded hover:border-green-500">
                                 <Link to="/contact" className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Contact Me</Link>
                             </li>
                         </ul>
