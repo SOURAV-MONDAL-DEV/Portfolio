@@ -5,7 +5,7 @@ const Contact = () => {
         <div className='bg-black'>
             <h1 className='text-center m-10 text-xl '>Please fill the contact form to email me.</h1>
             <div class=" mx-auto pb-20 w-full max-w-xs">
-                <form class="bg-black shadow-md border rounded px-8 pt-6 pb-8 mb-4">
+                <form class=" shadow-md border rounded px-8 pt-6 pb-8 mb-4">
                     <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Enter your email
