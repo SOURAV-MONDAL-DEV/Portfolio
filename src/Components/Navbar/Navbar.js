@@ -65,7 +65,7 @@ export default function NavBar() {
                                 <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Blog</Link>
                             </li>
                             <li className=" text-amber-400 rounded hover:border-green-500">
-                                <Link className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >About Me</Link>
+                                <Link to='/about' className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >About Me</Link>
                             </li>
                             <li className=" text-amber-400 rounded hover:border-green-500">
                                 <Link to="/contact" className="text-sm md:text-xl font-semi-bold px-2 py-1 hover:border rounded-md " >Contact Me</Link>

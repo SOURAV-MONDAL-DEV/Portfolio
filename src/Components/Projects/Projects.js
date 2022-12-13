@@ -2,6 +2,7 @@ import React from 'react';
 import paint from '../../images/projects/paint.png'
 import stove from '../../images/projects/stove.png'
 import medi from '../../images/projects/medi.png'
+import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
@@ -16,7 +17,7 @@ const Projects = () => {
                         <h2 className="card-title text-bold text-2xl py-3">Paint Hub</h2>
                         <p>For providing painting Order and Reviews</p>
                         <div className="flex justify-end">
-                            <button className="btn bg-green-500 px-1 rounded">Details</button>
+                            <Link to='/project1' className="btn bg-green-500 px-1 rounded">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -26,7 +27,7 @@ const Projects = () => {
                         <h2 className="card-title text-bold text-2xl py-3">Stove World</h2>
                         <p>Buy and sell used stoves online</p>
                         <div className="flex justify-end">
-                            <button className="btn bg-green-500 px-1 rounded">Details</button>
+                            <Link  className="btn bg-green-500 px-1 rounded">Details</Link>
                         </div>
                     </div>
                 </div>
