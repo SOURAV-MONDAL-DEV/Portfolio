@@ -15,12 +15,11 @@ const Project1 = () => {
                 <a className='block btn border rounded text-green-500 text-center p-1 m-1' href='https://paint-service.web.app/'>Show Live Site</a>
                 <a className='block btn border rounded text-green-500 text-center p-1 m-1' href='https://github.com/SOURAVMONDAL-BD/paint-service-client'>GitHub Client Code</a>
                 <a className='block btn border rounded text-green-500 text-center p-1 m-1' href='https://github.com/SOURAVMONDAL-BD/paint-service-server'>GitHub Server Code</a>
-                <p className='text-2xl font-bold my-10'>Feature and functionalities:</p>
-                <p>1. Have a navigation bar to navigate deferent route.</p>
-                <p>2. Have a dedicated services page.</p>
-                <p>3. There are shown customer review.</p>
-                <p>4. User can add his\her own review.</p>
-                <p>5. customer can place order.</p>
+                <p className='text-2xl font-bold mt-10'>Feature and functionalities:</p>
+                <p>1. The site is create for order and get reviews for various Painting .</p>
+                <p>2. Have a navigation bar and dedicated services page.</p>
+                <p>3. User can show customer review and can add his\her own review.</p>
+                <p>4. Technologies: React, Tailwind css, Daisy ui, Vercel, Firebase, Mongodb.</p>
             </div>
             <div className='col-span-2 flex flex-col justify-center'>
                 <PhotoProvider>
